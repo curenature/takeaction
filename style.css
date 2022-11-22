@@ -1,4 +1,4 @@
-  body{ 
+body{ 
     color:#bbbbbb;
      background:black;
    }
@@ -62,15 +62,15 @@
  }
  
  label[for^='g']>h2::before
- {content: '\\25B6 '}
+ {content: '\25B6'}
  
  
  input[name='g']:checked+label>h2::before{
-   content: '\\25BC '
+   content: '\25BC'
  }     
  
  
- span::before{content: '\\25CF '}
+ span::before{content: '\25CF'}
  
  
  
